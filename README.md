@@ -1,7 +1,7 @@
 ### CastleBravo
 CastleBravo - BugBounty Automation Tool 
 
-This repository contains code fragments, if you want the most complete version contact me here m4ll0k@protonmail.com or via [twitter](https://twitter.com/m4ll0k)
+This repo. contains only some parts of the full version , if you want the most complete version contact me here m4ll0k@protonmail.com or via [twitter](https://twitter.com/m4ll0k)
 
 
 ### requirements
