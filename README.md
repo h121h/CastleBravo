@@ -37,5 +37,38 @@ This repository contains code fragments, if you want the most complete version c
    - [assetfinder](https://github.com/tomnomnom/assetfinder) 
    - [subfinder](https://github.com/projectdiscovery/subfinder) - put your `config.yaml` in `CastleBravo/tools/dns/passive/tools/`
    - [github-subdomains](https://github.com/gwen001/github-search/blob/master/github-subdomains.py) put `.tokens` in `CastleBravo/tools/dns/passive/tools/`
-  
+ 
+ 
+ __I suggest you to use the tool in your VPS, with crontab, etc.__
+ 
+ 
+### setup
+
+- edit `config.json`
+
+```json
+
+{
+    "inScope"     : ["example.com"],
+    "outScope"    : ["dev.example.com"],
+    "target"      : "example.com",
+    "projectName" : "exampleTarget",
+    "keys" : {
+        "telegramToken":"[YOUR_TELEGRAM_BOT_TOKEN]",
+        "chatId":"[TELEGRAM_CHATID]"
+    },
+    "dbPath"   : "/db/",
+    "toolName" : "CastleBravoV2",
+    "tmpPath" : "/tmp/",
+    "dbExt" : ".db",
+    "wordlists":{
+        "altdnsSmall" : "/wordlist/dns/small.txt",
+        "altdnsMedium" : "/wordlist/dns/medium.txt",
+        "altdnsBig" : "/wordlist/dns/big.txt",
+        "massdnsResolvers" : "/wordlist/dns/resolvers.txt"
+    }
+}
+
+```
+
 
