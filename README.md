@@ -18,7 +18,8 @@ This repository contains code fragments, if you want the most complete version c
   - `subfinder`
   - `subdomain.sh`
  
- - your [telegram bot ](https://core.telegram.org/bots)
+
+- your [telegram bot ](https://core.telegram.org/bots)
   - `token and chatid`
   
   
