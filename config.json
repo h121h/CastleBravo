@@ -1,0 +1,22 @@
+{
+    "inScope"     : ["example.com"],
+    "outScope"    : ["dev.example.com"],
+    "target"      : "example.com",
+    "projectName" : "exampleTarget",
+    "keys" : {
+        "telegramToken":"[YOUR_TELEGRAM_BOT_TOKEN]",
+        "chatId":"[TELEGRAM_CHATID]",
+        "githubToken" : null,
+        "securityTailsApiKey" : null
+    },
+    "dbPath"   : "/db/",
+    "toolName" : "CastleBravoV2",
+    "tmpPath" : "/tmp/",
+    "dbExt" : ".db",
+    "wordlists":{
+        "altdnsSmall" : "/wordlist/dns/small.txt",
+        "altdnsMedium" : "/wordlist/dns/medium.txt",
+        "altdnsBig" : "/wordlist/dns/big.txt",
+        "massdnsResolvers" : "/wordlist/dns/resolvers.txt"
+    }
+}
