@@ -1,5 +1,7 @@
-# CastleBravo V2 - BugBounty Automation
+# CastleBravo V2  - BugBounty Automation
 # by @m4ll0k - github.com/m4ll0k
+
+# parts of full version
 
 import re
 import sys 
