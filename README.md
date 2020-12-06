@@ -39,7 +39,6 @@ This repository contains code fragments, if you want the most complete version c
    - [github-subdomains](https://github.com/gwen001/github-search/blob/master/github-subdomains.py) put `.tokens` in `CastleBravo/tools/dns/passive/tools/`
  
  
- __I suggest you to use the tool in your VPS, with crontab, etc.__
  
  
 ### setup
@@ -70,5 +69,15 @@ This repository contains code fragments, if you want the most complete version c
 }
 
 ```
+
+- now run it, with crontab,etc (`I suggest you to use the tool in your VPS`) or or directly with python:
+
+```bash
+
+$ python3 castlebravo.py
+
+```
+
+
 
 
